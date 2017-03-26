@@ -34,13 +34,14 @@
   "bugs": "https://github.com/anko/eslisp/issues",
   "license": "ISC",
   "devDependencies": {
+    "concat-stream": "^1.6.0",
     "livescript": "^1.4.0",
     "rimraf": "^2.4.1",
     "source-map": "^0.5.3",
     "tape": "^4.0.0",
     "tests-ex-markdown": "^2.0.0",
-    "tmp": "0.0.28",
-    "uuid": "^2.0.1"
+    "tmp": "0.0.31",
+    "uuid": "^3.0.1"
   },
   "dependencies": {
     "chalk": "^1.1.1",
@@ -49,7 +50,7 @@
     "escodegen": "^1.4.1",
     "esutils": "^2.0.2",
     "esvalid": "1.1.0",
-    "nopt": "^3.0.3",
+    "nopt": "^4.0.1",
     "prelude-ls": "^1.1.1",
     "sexpr-plus": "^7.0.0"
   }
